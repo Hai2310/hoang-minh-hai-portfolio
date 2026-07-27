@@ -1,0 +1,27 @@
+Hoang Minh Hai Portfolio - Verification Summary
+Date: 2026-07-28
+
+PASSED
+- Project doctor
+- package.json/package-lock root consistency
+- package-lock registry URL cleanup
+- TypeScript/TSX syntax and isolated-module parsing: 77 files, 0 errors
+- Internal import resolution: 73 source/test files, 0 missing imports
+- GitHub fallback snapshot: 29 repositories
+- CV validation: PDF 1.7, A4, 3 pages, not encrypted, no embedded JavaScript
+- Profile image validation: JPEG, 375x375
+
+NOT EXECUTED IN THIS SANDBOX
+- npm ci
+- ESLint
+- full TypeScript typecheck
+- Vitest
+- Next.js production build
+- Playwright
+
+Reason: the sandbox's internal npm artifact gateway returned HTTP 503 for dependency tarballs.
+Run on a normal internet-connected machine:
+  npm ci
+  npm run check
+  npx playwright install chromium
+  npm run test:e2e
