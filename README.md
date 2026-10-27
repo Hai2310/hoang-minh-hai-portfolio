@@ -4,6 +4,10 @@ Production-ready personal portfolio for **Hoang Minh Hai**, a Data Engineer in H
 
 > **Live demo:** replace this line after deployment with your Vercel or custom-domain URL.
 
+## Practical AI guide
+
+I also publish *From Prompt to Profit*, a 100-page guide for developers and creators exploring AI services and digital products. It includes 35 practical systems, 50 reusable prompts, pricing guidance, worksheets, and a 30-day action plan. [View it on Gumroad](https://minhhaia.gumroad.com/l/oiohso) — a free starter tier is available, and code `SALE` currently applies 30% off the full edition.
+
 ## What is included
 
 - Home, About, Experience, Projects, Skills, Contact, six case-study pages, loading/error states, and a custom 404 page.
